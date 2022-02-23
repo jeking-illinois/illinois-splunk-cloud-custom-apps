@@ -27,13 +27,13 @@ Once all the additions and changes are made, run the following at the CLI in the
 
      splunk package app <APP NAME>
 
-The file will be saved to %SPLUNK_HOME%\etc\system\static\app-packages\<APP NAME>.spl 
+The app will be saved to %SPLUNK_HOME%\etc\system\static\app-packages\<APP NAME>.spl 
       This process compresses the app into a .spl file and files are granted proper "Splunk" permissions to pass App Validation
 
 Navigate to https://illinois.splunkcloud.com/en-US/app/dmc/uploaded_apps and click "Upload App"
 
-Log in with your www.splunk.com creadentials & drag/drop the created <APP NAME>.spl package to begin the App Validation process
-
+Log in with your www.splunk.com creadentials & drag/drop <APP NAME>.spl into the Web interface to begin the App Validation process
+      
 Once done you will be notified if the app is accepted & ready to install or rejected with a report detailing the reasons
 
 Installing apps initiates a Search Head Cluster restart
