@@ -1,6 +1,11 @@
 # AAA_uofi_urb_splunkmgmt_APP
-App for Splunk Cloud .conf changes
+## Details
+Description : App for Splunk Cloud .conf changes
 
+Version : 1.0.0
+
+
+## Updating & Deploying
 To update this app, make all changes and additions in this GitHub repo.
 
 Once done, download this folder and add it to a locally running Splunk instance, `%SPLUNK_HOME%\etc\apps\AAA_uofi_urb_splunkmgmt_APP`
