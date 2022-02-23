@@ -6,6 +6,7 @@ Download this folder and place it in a locally running Splunk instance, %SPLUNK_
 Rename the folder to the <APP NAME> you want utilizing the App Naming Convention found here : https://wiki.illinois.edu/wiki/display/splunk/Naming+Conventions#NamingConventions-CustomApps
 
 First edit \<APP NAME>\default\app.conf by changing the following basic information:
+      
       [launcher]
       description = <YOUR DESCRIPTION>
   
