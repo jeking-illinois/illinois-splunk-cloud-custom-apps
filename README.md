@@ -28,7 +28,6 @@ Description :
 
 Version : 
 
-
 ## Updating & Deploying
 To update this app, make all changes and additions in this GitHub repo.
 
