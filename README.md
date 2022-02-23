@@ -29,7 +29,7 @@ Click on the `uofi_urb_template_APP` folder and at the `...` menu select `Delete
 
 Click `Add file` then `Upload files` and then drag/drop `%SPLUNK_HOME%\etc\apps\<APP NAME>` & commit
 	
-In this branched `README.md`, delete everything below & including this line and replace <APP NAME> with the new app's name & commit
+In this branched `README.md`, delete everything below & including this line, and replace every instance of `<APP NAME>` below with the new app's name & commit
 
 # <APP NAME>
 ## Details
