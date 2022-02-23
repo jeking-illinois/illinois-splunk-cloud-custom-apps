@@ -15,4 +15,4 @@ Log in with your www.splunk.com creadentials & drag/drop the created .spl packag
 
 Once done you will be notified if the app is accepted & ready to install or rejected with a report detailing the reasons
 
-Installing will execute a SHC restart
+Installing apps initiates a Search Head Cluster restart
