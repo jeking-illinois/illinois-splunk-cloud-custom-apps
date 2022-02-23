@@ -1,4 +1,3 @@
-# uofi_urb_template_APP
 Description : Template to create new apps for Splunk Cloud
 
 Download this folder and place it in a locally running Splunk instance, `%SPLUNK_HOME%\etc\apps\uofi_urb_template_APP`
