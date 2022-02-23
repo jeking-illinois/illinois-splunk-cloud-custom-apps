@@ -5,7 +5,7 @@ Download this folder and place it in a locally running Splunk instance, %SPLUNK_
 
 Rename the folder to the <APP NAME> you want utilizing the App Naming Convention found here : https://wiki.illinois.edu/wiki/display/splunk/Naming+Conventions#NamingConventions-CustomApps
 
-First edit \<APP NAME>\default\app.conf by changing the following basic information:
+The only required step is to edit \<APP NAME>\default\app.conf by changing the following basic information:
       
       [launcher]
       description = <YOUR DESCRIPTION>
@@ -16,10 +16,11 @@ First edit \<APP NAME>\default\app.conf by changing the following basic informat
       [ui]
       label = <DISPLAYED NAME OF APP IN SPLUNK>
 
-Change the icons or logos in \<APP NAME>\static\
-Add scripts \<APP NAME>\bin\
-Add .conf files to \<APP NAME>\default\
-If including lookups, create a folder \<APP NAME>\lookups and add them there
+Optional Steps:
+      Change the icons or logos in \<APP NAME>\static\
+      Add scripts \<APP NAME>\bin\
+      Add .conf files to \<APP NAME>\default\
+      If including lookups, create a folder \<APP NAME>\lookups and add them there
 
 Once all the additions and changes are made, run the following at the CLI in the %SPLUNK_HOME%\bin directory >
 
