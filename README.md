@@ -5,10 +5,11 @@ Download this repo, unzip it, then place the `uofi_urb_template_APP` folder in a
 
 Rename the folder to the `<APP NAME>` you want utilizing the App Naming Convention found here : https://wiki.illinois.edu/wiki/display/splunk/Naming+Conventions#NamingConventions-CustomApps
 
-The only required step is to edit `\<APP NAME>\default\app.conf` by changing the following basic information :
+Edit `\<APP NAME>\default\app.conf` by changing the following information :
 ```     
 [launcher]
-description = <YOUR DESCRIPTION>
+description = <YOUR DESCRIPTION OF THE APP>
+version = <APP VERSION NUMBER>
 
 [package]
 id = <APP NAME>
@@ -16,12 +17,25 @@ id = <APP NAME>
 [ui]
 label = <DISPLAYED NAME OF APP IN SPLUNK>
 ```
+Edit `\<APP NAME>\app.manifest` by changing the following information, it will need to be the same as in `app.conf` :
+```
+... 
+"title": <DISPLAYED NAME OF APP IN SPLUNK>,
+	"id": {
+		"group": null,
+   		"name": <APP NAME>,
+   		"version": <APP VERSION NUMBER>
+   	},
+...
+"description": <YOUR DESCRIPTION OF THE APP>,
+...
+```
 Optional Steps :
 
 - Change the icons or logos in `\<APP NAME>\static\`
 - Add scripts `\<APP NAME>\bin\`
 - Add .conf files to `\<APP NAME>\default\`
-- If including lookups, create a folder `\<APP NAME>\lookups` and add them there
+- Add lookup files to `\<APP NAME>\lookups`
 
 Once all the changes are made, create a new branch under main in GitHub with `<APP NAME>` as the name and continue working there
 
