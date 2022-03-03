@@ -52,7 +52,7 @@ The app will be saved to `%SPLUNK_HOME%\etc\system\static\app-packages\<APP NAME
 
 Navigate to https://illinois.splunkcloud.com/en-US/app/dmc/uploaded_apps and click "Upload App"
     
-Log in with your https://www.splunk.com creadentials & drag/drop `<APP NAME>.spl` into the Web interface to begin the App Validation process
+Log in with your https://www.splunk.com credentials & drag/drop `<APP NAME>.spl` into the Web interface to begin the App Validation process
 
 Once done you will be notified if the app is accepted & ready to install or rejected with a report detailing the reasons
 
