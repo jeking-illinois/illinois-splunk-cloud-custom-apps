@@ -17,19 +17,7 @@ id = <APP NAME>
 [ui]
 label = <DISPLAYED NAME OF APP IN SPLUNK>
 ```
-Edit `\<APP NAME>\app.manifest` by changing the following information, it will need to be the same as in `app.conf` :
-```
-... 
-"title": <DISPLAYED NAME OF APP IN SPLUNK>,
-	"id": {
-		"group": null,
-   		"name": <APP NAME>,
-   		"version": <APP VERSION NUMBER>
-   	},
-...
-"description": <YOUR DESCRIPTION OF THE APP>,
-...
-```
+
 Optional Steps :
 
 - Change the icons or logos in `\<APP NAME>\static\`
