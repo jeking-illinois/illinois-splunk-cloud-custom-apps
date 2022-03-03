@@ -1,7 +1,7 @@
 # uofi_urb_template_APP
 Description : Template to create new apps for Splunk Cloud
 
-Download this folder and place it in a locally running Splunk instance, `%SPLUNK_HOME%\etc\apps\uofi_urb_template_APP`
+Download this repo, unzip it, then place the `uofi_urb_template_APP` folder in a locally running Splunk instance, ie `%SPLUNK_HOME%\etc\apps\uofi_urb_template_APP`
 
 Rename the folder to the `<APP NAME>` you want utilizing the App Naming Convention found here : https://wiki.illinois.edu/wiki/display/splunk/Naming+Conventions#NamingConventions-CustomApps
 
