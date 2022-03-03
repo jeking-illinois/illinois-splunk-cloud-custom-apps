@@ -22,6 +22,3 @@ Log in with your https://www.splunk.com credentials & drag/drop `Splunk_TA_tomca
 Once done you will be notified if the app is accepted & ready to install or rejected with a report detailing the reasons
 
 Installing apps initiates a Search Head Cluster restart
-
-## NOTE
-This version does not have an app.manifest file
