@@ -1,6 +1,6 @@
 # uofi_urb_zoom_techsvc_APP
 ## Details
-Description : Illinois Zoom Service administration app
+Description : Illinois Zoom Service Administration App
 
 Version : 1.0.0
 
