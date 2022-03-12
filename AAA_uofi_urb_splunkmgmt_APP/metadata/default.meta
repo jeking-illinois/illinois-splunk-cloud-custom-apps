@@ -2,7 +2,7 @@
 # Application-level permissions
 
 []
-access = read : [ admin ], write : [ admin ]
+access = read : [ sc_admin ], write : [ sc_admin ]
 
 ### EVENT TYPES
 
