@@ -11,7 +11,7 @@ The miminum requirement will be to change the version information in this `READM
 
 Once done, download this folder and add it to a locally running Splunk instance, `%SPLUNK_HOME%/etc/apps/uofi_urb_zoom_techsvc_APP`
 
-Run the following at the CLI in the `%SPLUNK_HOME%\bin` directory :
+Run the following at the CLI in the `%SPLUNK_HOME%/bin` directory :
 ```
 splunk package app uofi_urb_zoom_techsvc_APP
 ```  
