@@ -2,7 +2,7 @@
 # Application-level permissions
 
 []
-access = read : [ sc_admin ], write : [ sc_admin ]
+access = read : [ admin, sc_admin, app_zoom_techsvc ], write : [ admin, sc_admin, app_zoom_techsvc ]
 
 ### EVENT TYPES
 
