@@ -2,7 +2,7 @@
 ## Details
 Description : Illinois Zoom Service Administration App
 
-Version : 1.0.1
+Version : 1.0.2
 
 ## Updating & Deploying
 To update this app, make all changes and additions in this GitHub repo.
