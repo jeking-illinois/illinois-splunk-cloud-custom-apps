@@ -7,7 +7,7 @@ Version : 1.0.2
 ## Updating & Deploying
 To update this app, make all changes and additions in this GitHub repo.
 
-The miminum requirement will be to change the version information in this `REAQDME.md` file and also in the `uofi_urb_zoom_techsvc_APP/default/app.conf` file
+The miminum requirement will be to change the version information in this `README.md` file and also in the `uofi_urb_zoom_techsvc_APP/default/app.conf` file
 
 Once done, download this folder and add it to a locally running Splunk instance, `%SPLUNK_HOME%/etc/apps/uofi_urb_zoom_techsvc_APP`
 
