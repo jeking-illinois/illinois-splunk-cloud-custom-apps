@@ -2,7 +2,7 @@
 ## Details
 Description : "Sidecar" app for the official "CrowdStrike Falcon Data Replicator SQS" version 2.2.0
 
-Version : 1.0.2
+Version : 1.0.3
 
 ## Updating & Deploying
 To update this app, make all changes and additions in this GitHub repo.
