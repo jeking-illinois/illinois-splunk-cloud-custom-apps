@@ -1,4 +1,4 @@
-# uofi_ua_ghss_AITS
+# uofi_ua_ghss_aits
 ## Details
 Description : GitHub Shared Service for the Univeristy of Illinois System
 
