@@ -2,7 +2,7 @@
 ## Details
 Description : App for Splunk Cloud .conf changes
 
-Version : 1.0.3
+Version : 1.0.4
 
 
 ## Updating & Deploying
